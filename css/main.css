@@ -56,7 +56,7 @@ nav ul a:hover {
 nav .close {
   float: right;
   margin: 2em;
-  width: 2.5em;
+  width: 2em;
 }
 
 header {
@@ -64,7 +64,7 @@ header {
   justify-content: space-between;
 }
 header svg {
-  width: 3em;
+  width: 2.3em;
   margin-top: -0.6em;
   cursor: pointer;
 }
@@ -111,6 +111,10 @@ section.hero .down-arrow path {
 
 .description {
   line-height: 2rem;
+}
+
+.open-nav {
+  transform: translateX(0%);
 }
 
 @media only screen and (min-width: 680px) {

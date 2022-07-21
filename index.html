@@ -55,20 +55,34 @@
 
       <div class="feature left">
         <div class="content">
-          <p class="title">Lightweight</p>
-          <p class="description">Upper mesh material provides proper ventilation and reduction in the weight of the shoes.</p>
+          <p class="title">Flexibility</p>
+          <p class="description">Soft, flexible soles will allow the walker to push off easly with each step.</p>
         </div>
         <img src="images/shoe3.jpg" alt="Another Shoe">
       </div>
 
       <div class="feature">
         <div class="content">
-          <p class="title">Lightweight</p>
-          <p class="description">Upper mesh material provides proper ventilation and reduction in the weight of the shoes.</p>
+          <p class="title">Durability</p>
+          <p class="description">Lightweight, woven material  is durable and provide structure and support.</p>
         </div>
         <img src="images/shoe4.jpg" alt="Another Shoe">
       </div>
     </section>
   </div>
+
+  <script>
+    const menu = document.querySelector('.menu')
+    const close = document.querySelector('.close')
+    const nav = document.querySelector('nav')
+
+    menu.addEventListener('click', () => {
+        nav.classList.add('open-nav')
+    })
+
+    close.addEventListener('click', () => {
+        nav.classList.remove('open-nav')
+    })
+  </script>
 </body>
 </html>
